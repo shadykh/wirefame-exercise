@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 960px;
+    margin: auto;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+
+
+header {
+    padding: 10px 0;
+    text-align: center;
+    background: #DDD;
+    height: 100px;
+}
+
+header nav div{
+    float: right;
+    margin: 27px;
+    padding-left: 0;
+    padding-right: 78px;
+}
+
+header nav div a {
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+  header nav img {
+    padding-left: 47px
+}
+main section:nth-child(1){
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+main section:nth-child(1) img{
+    width: 100%;
+}
+
+main section:nth-child(2){
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+}
+main section:nth-child(2) img {
+    width: calc(100% / 3);
+    float: left;
+    padding: 15px;
+}
+
+main section:nth-child(3){
+    clear: both;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+}
+main section:nth-child(3) img{
+    width: calc(100% / 2);
+    float: left;
+    padding: 20px;
+}
+main section:nth-child(3) h4{
+ text-align: left;
+ padding-top: 18px;
+}
+main section:nth-child(3) p{
+    text-align: justify;
+    overflow: hidden;
+    height: 289px;
+}
+main section:nth-child(3) a{
+    float: left;
+    background-color: #ddd;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+footer{
+  clear: both;
+  padding: 52px;
+  text-align: center;
+  background: #DDD;
+}
