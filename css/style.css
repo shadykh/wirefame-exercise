@@ -63,22 +63,24 @@ main section:nth-child(3){
     clear: both;
     margin: auto;
     text-align: center;
-    padding: 20px;
+    padding: 14px;
     overflow: auto;
 }
 main section:nth-child(3) img{
     width: calc(100% / 2);
     float: left;
-    padding: 20px;
+    padding: 0px;
 }
 main section:nth-child(3) h4{
- text-align: left;
- padding-top: 18px;
+    margin-right: 243px;
+    text-align: left;
+    text-align: center;
 }
 main section:nth-child(3) p{
     text-align: justify;
-    overflow: hidden;
-    height: 289px;
+    overflow: scroll;
+    height: 288px;
+    padding-left: 25px;
 }
 main section:nth-child(3) a{
     float: left;
@@ -87,6 +89,7 @@ main section:nth-child(3) a{
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
+    margin: 24px 25px;
 }
 footer{
   clear: both;
