@@ -20,6 +20,7 @@ header {
     text-align: center;
     background: #DDD;
     height: 100px;
+    margin: 0px -40px;
 }
 
 header nav div{
@@ -97,4 +98,5 @@ footer{
   padding: 52px;
   text-align: center;
   background: #DDD;
+  margin: 0px -40px;
 }
